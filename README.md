@@ -1,1 +1,1 @@
-# lc-practices
+# Leetcode Practices & Answers
