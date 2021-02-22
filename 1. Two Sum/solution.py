@@ -14,7 +14,7 @@ class Solution:
         for i in range(len(nums)):
             remainder = target - nums[i]
             if remainder in res_map:
-                return [i, remainder[remainder]]
+                return [i, res_map[remainder]]
             else:
                 res_map[nums[i]] = i
         return []
